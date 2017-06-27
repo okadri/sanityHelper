@@ -1,0 +1,56 @@
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.btn-copy-cart {
+  float: right;
+  font-size: 10px;
+}
+
+ul.sanity-toolbar {
+  position: fixed;
+  left: 0;
+  bottom: 20%;
+  list-style: none;
+  margin: 0;
+  z-index: 1;
+}
+
+ul.sanity-toolbar li {
+  display: block;
+  cursor: pointer;
+  background-color: #00bada;
+  opacity: 0.3;
+  color: white;
+  padding: 0 5px;
+  right: 0;
+  max-width: 3px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
+  margin: 10px 0;
+}
+
+ul.sanity-toolbar li:hover {
+  max-width: 200px;
+  opacity: 1;
+}
+
+ul.sanity-toolbar li.textboxes {
+  background-color: #333333;
+}
+
+ul.sanity-toolbar li.checkboxes {
+  background-color: #653479;
+}
+
+ul.sanity-toolbar li.dropdowns {
+  background-color: #FF4500;
+}
